@@ -1,3 +1,4 @@
+/* ------ Portfolio CSS Style ------ */ 
 html{
   font-size: 16px;
 }
@@ -13,6 +14,8 @@ body {
 .content-wrapper {
   width: 85%;
 }
+
+
 /* -- Header Styles -- */
 header {
   display: flex;
@@ -158,6 +161,7 @@ header a {
   color: #ffe8d6;
   text-decoration: none;
 }
+
 
 /* -- Work Styles -- */
 #work {
@@ -343,7 +347,9 @@ footer .social-icons li i {
 .fa-twitter:before {
   content: "\f099";
 }
-/* -- Breakpoint Style -- */
+
+
+/* -- Media Breakpoint Styles -- */
 
 /* -- Tablet Style -- */
 @media only screen and (min-width: 768px) {
@@ -483,7 +489,6 @@ footer .social-icons li i {
     
   }
 
-
   /* -- Footer Styles -- */
   footer {
     padding-bottom: 80px;
@@ -555,7 +560,6 @@ footer .social-icons li i {
   .home-title h2 {
     max-width: 70%;
   }
-
 
   /* -- Work -- */
   #work {
@@ -643,43 +647,6 @@ footer .social-icons li i {
     margin: 0 0 30px 0;
   }
 
-/*
-  .about-content-wrapper {
-    display: flex;
-    justify-content: space-between;
-  }
-  #about h3, 
-  #about h4, 
-  #about p {
-    color: #4a4f3e;
-  }
-  #about p {
-    width: 100%;
-    text-align: left;
-  }
-
-  #about figure {
-    width: 35%;
-    margin-top: 0;
-  }
-  .about-info {
-    width: 58%;
-  }
-  .about-info h3 {
-    font-size: 3.75rem;
-    text-align: left;
-    margin: 0;
-  }
-  .about-info h4 {
-    font-size: 2rem;
-    text-align: left;
-    font-weight: 400;
-    margin: 40px 0;
-  }
-  .about-text {
-    margin: 0 0 30px 0;
-  }
-*/
   /* -- Footer Styles -- */
   footer {
     display: flex;
