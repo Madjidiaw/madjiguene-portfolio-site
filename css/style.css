@@ -319,6 +319,7 @@ footer .social-icons li i {
 
 
 /* -- Media Breakpoint Styles -- */
+
 /* Navigation Bar to colum Style for Screen Below 311 */ 
 @media only screen and (max-width: 350px) {
   header nav ul {
