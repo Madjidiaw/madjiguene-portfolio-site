@@ -154,7 +154,7 @@ header a {
   align-items: center;
 }
 .home-portfolio-piece figure {
-  width: 75%;
+  width: 90%;
   filter: drop-shadow(1px 2px 6px lightgrey);
 }
 .home-portfolio-piece h4 {
@@ -170,7 +170,7 @@ header a {
 #work img {
   width: 100%;
   vertical-align: middle;
-  height: 300px;
+  height: auto;
 }
 .project-link {
   font-size: 1.125rem;
@@ -283,7 +283,9 @@ footer .follow-section {
 }
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 footer ul {
   width: 100%;
